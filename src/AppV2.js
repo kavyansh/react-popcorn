@@ -75,9 +75,6 @@ function Loader() {
 function NavBar({ children }) {
   return (
     <nav className="nav-bar">
-      <div className="dummy-test">
-        <h1>This is just for testing</h1>
-      </div>
       <Logo />
       {children}
     </nav>
@@ -119,7 +116,7 @@ function Logo() {
   return (
     <div className="logo">
       <span role="img">🍿</span>
-      <h1>usePopcorn</h1>
+      <h1>useMovies</h1>
     </div>
   );
 }
